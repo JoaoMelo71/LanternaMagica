@@ -11,18 +11,18 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
 
 
 #EXTINF:0 CUID="3" tvg-chno="3" group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
+#EXTVLCOPT:http-user-agent=Firefox
 #KODIPROP:inputstream=inputstream.adaptive
 https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 
 
 #EXTINF:0 CUID="4" tvg-chno="4" group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
-#KODIPROP:inputstream=inputstream.adaptive
+#EXTVLCOPT:http-user-agent=Firefox
 http://sure.streams.me.uk:25461/live/GQGGcVHZjBpn/HsuYn7hVT93U/23.ts
 
 
-
-
 #EXTINF:0 CUID="5" tvg-chno="5" group-title="TV" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png",SIC Notícias
+#EXTVLCOPT:http-user-agent=Firefox
 #KODIPROP:inputstream=inputstream.adaptive
 #EXTVLCOPT:http-referrer=https://sic.pt/
 #https://sicnot.live.impresa.pt/sicnot.m3u8
@@ -30,7 +30,6 @@ https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/in
 
 
 #EXTINF:0 CUID="6" tvg-chno="6" group-title="TV" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
-#KODIPROP:inputstream=inputstream.adaptive
 http://sure.streams.me.uk:25461/live/GQGGcVHZjBpn/HsuYn7hVT93U/25.ts
 
 
@@ -38,48 +37,55 @@ http://sure.streams.me.uk:25461/live/GQGGcVHZjBpn/HsuYn7hVT93U/25.ts
 #EXTVLCOPT:http-user-agent=Firefox
 https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
 
+#EXTINF:0 CUID="" tvg-chno="8" group-title="TV" tvg-id="News Now.pt" tvg-logo="https://marketeer.sapo.pt/wp-content/uploads/2024/05/news-now.png",NEWS NOW
+http://33468-child.oot-mx.me:80/play/live.php?mac=00:1B:79:F0:D0:56&stream=1561508&extension=ts
 
 
-#EXTINF:0 CUID="" tvg-chno="" group-title="TV" tvg-id="CMTV.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/logos/CMTV.png",CMTV
+
+
+
+#EXTINF:0 CUID="" tvg-chno="9" group-title="TV" tvg-id="CMTV.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/logos/CMTV.png",CMTV
 #EXTVLCOPT:http-user-agent=Firefox
-http://31.43.191.49:25461/live/menandmathis/fHA8CKHV2R/9698.ts
+http://tv14s.xyz:8080/live/5ThaSM/484504/78441.m3u8
 
 
 
-#EXTINF:0 CUID="8" tvg-chno="8" group-title="TV" tvg-id="PortoCanal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porto-Canal.png",Porto Canal
+
+
+#EXTINF:0 CUID="8" tvg-chno="10" group-title="TV" tvg-id="PortoCanal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porto-Canal.png",Porto Canal
 #KODIPROP:inputstream=inputstream.adaptive
 https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8
 
 
-#EXTINF:0 CUID="9" tvg-chno="9" group-title="TV" tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews PT
+#EXTINF:0 CUID="9" tvg-chno="11" group-title="TV" tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews PT
 #EXTVLCOPT:http-user-agent=Firefox
 http://31.43.191.49:25461/live/menandmathis/fHA8CKHV2R/9700.ts
 
 
 
 
-#EXTINF:0 CUID="10" tvg-chno="10" group-title="TV" tvg-id="RTPMemoria.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Memória.png",RTP Memória
+#EXTINF:0 CUID="10" tvg-chno="12" group-title="TV" tvg-id="RTPMemoria.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Memória.png",RTP Memória
 #EXTVLCOPT:http-user-agent=Firefox
 https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
 
-#EXTINF:0 CUID="11" tvg-chno="11" group-title="TV" tvg-id="RTPAcores.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Açores.png",RTP Açores
+#EXTINF:0 CUID="11" tvg-chno="13" group-title="TV" tvg-id="RTPAcores.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Açores.png",RTP Açores
 #EXTVLCOPT:http-user-agent=Firefox
 https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
 
-#EXTINF:0 CUID="12" tvg-chno="12" group-title="TV" tvg-id="RTPMadeira.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Madeira.png",RTP Madeira
+#EXTINF:0 CUID="12" tvg-chno="14" group-title="TV" tvg-id="RTPMadeira.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Madeira.png",RTP Madeira
 #EXTVLCOPT:http-user-agent=Firefox
 https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
 
-#EXTINF:0 CUID="13" tvg-chno="13" group-title="TV" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
+#EXTINF:0 CUID="13" tvg-chno="15" group-title="TV" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
 #EXTVLCOPT:http-user-agent=Firefox
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 
-#EXTINF:0 CUID="14" tvg-chno="14" group-title="TV" tvg-id="RTPAfrica.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",RTP África
+#EXTINF:0 CUID="14" tvg-chno="16" group-title="TV" tvg-id="RTPAfrica.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",RTP África
 #EXTVLCOPT:http-user-agent=Firefox
 https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
 
 
-#EXTINF:0 CUID="15" tvg-chno="15" group-title="TV" tvg-id="ARTV.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png",ARTV
+#EXTINF:0 CUID="15" tvg-chno="17" group-title="TV" tvg-id="ARTV.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png",ARTV
 #KODIPROP:inputstream=inputstream.adaptive
 https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
 
@@ -87,28 +93,28 @@ https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3
 
 
 
-#EXTINF:0 CUID="16" tvg-chno="16" group-title="Desporto" tvg-chno="10" tvg-name="btv multimarca" tvg-ID="btv.pt" tvg-logo="https://logo.iptveditor.com/btv.png",btv multimarca
+#EXTINF:0 CUID="16" tvg-chno="18" group-title="Desporto" tvg-chno="10" tvg-name="btv multimarca" tvg-ID="btv.pt" tvg-logo="https://logo.iptveditor.com/btv.png",btv multimarca
 http://sure.streams.me.uk:25461/live/GQGGcVHZjBpn/HsuYn7hVT93U/26.ts
-#EXTINF:0 CUID="17" tvg-chno="17" group-title="Desporto" tvg-name="btv" tvg-ID="btv.pt" tvg-logo="https://logo.iptveditor.com/btv.png",btv
+#EXTINF:0 CUID="17" tvg-chno="19" group-title="Desporto" tvg-name="btv" tvg-ID="btv.pt" tvg-logo="https://logo.iptveditor.com/btv.png",btv
 http://sure.streams.me.uk:25461/live/GQGGcVHZjBpn/HsuYn7hVT93U/27.ts
-#EXTINF:0 CUID="18" tvg-chno="18" group-title="Desporto" tvg-name="sporttv 1" tvg-ID="sporttv1.pt" tvg-logo="https://logo.iptveditor.com/sporttv1.png",sporttv 1
+#EXTINF:0 CUID="18" tvg-chno="20" group-title="Desporto" tvg-name="sporttv 1" tvg-ID="sporttv1.pt" tvg-logo="https://logo.iptveditor.com/sporttv1.png",sporttv 1
 http://sure.streams.me.uk:25461/live/GQGGcVHZjBpn/HsuYn7hVT93U/30.ts
-#EXTINF:0 CUID="19" tvg-chno="19" group-title="Desporto" tvg-name="sporttv 2" tvg-ID="sporttv2.pt" tvg-logo="https://logo.iptveditor.com/sporttv2.png",sporttv 2
+#EXTINF:0 CUID="19" tvg-chno="21" group-title="Desporto" tvg-name="sporttv 2" tvg-ID="sporttv2.pt" tvg-logo="https://logo.iptveditor.com/sporttv2.png",sporttv 2
 http://sure.streams.me.uk:25461/live/GQGGcVHZjBpn/HsuYn7hVT93U/31.ts
-#EXTINF:0 CUID="20" tvg-chno="20" group-title="Desporto" tvg-name="sporttv 3" tvg-ID="sporttv3.pt" tvg-logo="https://logo.iptveditor.com/sporttv3.png",sporttv 3
+#EXTINF:0 CUID="20" tvg-chno="22" group-title="Desporto" tvg-name="sporttv 3" tvg-ID="sporttv3.pt" tvg-logo="https://logo.iptveditor.com/sporttv3.png",sporttv 3
 http://sure.streams.me.uk:25461/live/GQGGcVHZjBpn/HsuYn7hVT93U/32.ts
-#EXTINF:0 CUID="21" tvg-chno="21" group-title="Desporto" tvg-name="sporttv 4" tvg-ID="sporttv4.pt" tvg-logo="https://logo.iptveditor.com/sporttv4.png",sporttv 4
+#EXTINF:0 CUID="21" tvg-chno="23" group-title="Desporto" tvg-name="sporttv 4" tvg-ID="sporttv4.pt" tvg-logo="https://logo.iptveditor.com/sporttv4.png",sporttv 4
 http://sure.streams.me.uk:25461/live/GQGGcVHZjBpn/HsuYn7hVT93U/33.ts
-#EXTINF:0 CUID="22" tvg-chno="22" group-title="Desporto" tvg-name="sporttv 5" tvg-ID="sporttv5.pt" tvg-logo="https://logo.iptveditor.com/sporttv5.png",sporttv 5
+#EXTINF:0 CUID="22" tvg-chno="24" group-title="Desporto" tvg-name="sporttv 5" tvg-ID="sporttv5.pt" tvg-logo="https://logo.iptveditor.com/sporttv5.png",sporttv 5
 http://sure.streams.me.uk:25461/live/GQGGcVHZjBpn/HsuYn7hVT93U/34.ts
-#EXTINF:0 CUID="23" tvg-chno="23" group-title="Desporto" tvg-name="DAZN 1" tvg-ID="dazn1.pt" tvg-logo="https://logo.iptveditor.com/dazn1.png",DAZN 1
+#EXTINF:0 CUID="23" tvg-chno="25" group-title="Desporto" tvg-name="DAZN 1" tvg-ID="dazn1.pt" tvg-logo="https://logo.iptveditor.com/dazn1.png",DAZN 1
 http://sure.streams.me.uk:25461/live/GQGGcVHZjBpn/HsuYn7hVT93U/35.ts
-#EXTINF:0 CUID="24" tvg-chno="24" group-title="Desporto" tvg-name="DAZN 2" tvg-ID="dazn2.pt" tvg-logo="https://logo.iptveditor.com/dazn2.png",DAZN 2
+#EXTINF:0 CUID="24" tvg-chno="26" group-title="Desporto" tvg-name="DAZN 2" tvg-ID="dazn2.pt" tvg-logo="https://logo.iptveditor.com/dazn2.png",DAZN 2
 http://sure.streams.me.uk:25461/live/GQGGcVHZjBpn/HsuYn7hVT93U/36.ts
-#EXTINF:0 CUID="25" tvg-chno="25" group-title="Desporto" tvg-name="DAZN 3" tvg-ID="dazn3.pt" tvg-logo="https://logo.iptveditor.com/dazn3.png",DAZN 3
+#EXTINF:0 CUID="25" tvg-chno="27" group-title="Desporto" tvg-name="DAZN 3" tvg-ID="dazn3.pt" tvg-logo="https://logo.iptveditor.com/dazn3.png",DAZN 3
 http://sure.streams.me.uk:25461/live/GQGGcVHZjBpn/HsuYn7hVT93U/37.ts
-#EXTINF:0 CUID="26" tvg-chno="26" group-title="Desporto" tvg-name="DAZN 4" tvg-ID="dazn4.pt" tvg-logo="https://logo.iptveditor.com/dazn4.png",DAZN 4
+#EXTINF:0 CUID="26" tvg-chno="28" group-title="Desporto" tvg-name="DAZN 4" tvg-ID="dazn4.pt" tvg-logo="https://logo.iptveditor.com/dazn4.png",DAZN 4
 http://sure.streams.me.uk:25461/live/GQGGcVHZjBpn/HsuYn7hVT93U/38.ts
-#EXTINF:0 CUID="27" tvg-chno="27" group-title="Desporto" tvg-name="DAZN 5" tvg-ID="dazn5.pt" tvg-logo="https://logo.iptveditor.com/dazn5.png",DAZN 5
-#EXTINF:0 CUID="28" tvg-chno="28" group-title="Desporto" tvg-name="DAZN 6" tvg-ID="dazn6.pt" tvg-logo="https://logo.iptveditor.com/dazn6.png",DAZN 6
+#EXTINF:0 CUID="27" tvg-chno="29" group-title="Desporto" tvg-name="DAZN 5" tvg-ID="dazn5.pt" tvg-logo="https://logo.iptveditor.com/dazn5.png",DAZN 5
+#EXTINF:0 CUID="28" tvg-chno="30" group-title="Desporto" tvg-name="DAZN 6" tvg-ID="dazn6.pt" tvg-logo="https://logo.iptveditor.com/dazn6.png",DAZN 6
 http://sure.streams.me.uk:25461/live/GQGGcVHZjBpn/HsuYn7hVT93U/40.ts
